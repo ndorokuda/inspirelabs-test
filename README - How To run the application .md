@@ -21,15 +21,19 @@ composer install
 
 npm install
 
-6. Run the database migrations:
+6. Create the SQLite database file:
+
+   In the database folder, create a file called database.sqlite
+
+7. Run the database migrations:
 
 php artisan migrate
 
-7. Build the front-end assets:
+8. Build the front-end assets:
 
 npm run dev
 
-8. Start the development server:
+9. Start the development server:
 
 php artisan serve
 
